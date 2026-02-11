@@ -1,0 +1,104 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | SWAT</title>
+  <meta name="description" content="Contact SWAT for bookings, collaborations, and workshop requests." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="assets/logo.png" alt="SWAT logo" />
+      </a>
+      <nav id="primary-nav" class="main-nav" aria-label="Primary" aria-hidden="true">
+        <button class="nav-close" aria-label="Close menu" data-nav-close>×</button>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>Menu</button>
+    </div>
+  </header>
+  <div class="nav-overlay" data-nav-overlay></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s Create Something Powerful</h1>
+        <p class="lead">Tell us about your event, collaboration, or workshop idea.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container split">
+        <form class="card form" action="#" method="post">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@email.com" required>
+          </label>
+          <label>
+            Event Type
+            <input type="text" name="event" placeholder="Performance, workshop, collaboration" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us about the vision" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send Request</button>
+        </form>
+        <div>
+          <h2>Connect Directly</h2>
+          <p>We respond within 48 hours for booking requests.</p>
+          <div class="card contact-card">
+            <p><strong>Email:</strong> bookings@swatdance.com</p>
+            <p><strong>Instagram:</strong> @swat.dance</p>
+            <p><strong>TikTok:</strong> @swatdance</p>
+            <p><strong>YouTube:</strong> SWAT Official</p>
+            <a class="btn ghost" href="#">WhatsApp Booking</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo-mark">SWAT</div>
+        <p>Powerful, expressive, professional — ready for your next event.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="events.html">Events</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="contact.html">Contact</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 SWAT — Sisters With Attitude</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

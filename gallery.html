@@ -1,0 +1,135 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery | SWAT</title>
+  <meta name="description" content="Browse SWAT photos, performances, rehearsals, and event highlights." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="assets/logo.png" alt="SWAT logo" />
+      </a>
+      <nav id="primary-nav" class="main-nav" aria-label="Primary" aria-hidden="true">
+        <button class="nav-close" aria-label="Close menu" data-nav-close>×</button>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>Menu</button>
+    </div>
+  </header>
+  <div class="nav-overlay" data-nav-overlay></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Media</p>
+        <h1>Gallery & Performance Media</h1>
+        <p class="lead">Explore performances, rehearsals, and event moments.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="filter-bar" data-filter-bar>
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="performances">Performances</button>
+          <button class="filter-btn" data-filter="rehearsals">Rehearsals</button>
+          <button class="filter-btn" data-filter="events">Events</button>
+        </div>
+        <div class="grid media-grid" data-media-grid>
+          <div class="media-tile" data-category="performances">
+            <img src="assets/placeholder-image.svg" alt="Stage showcase placeholder image" />
+            <span>Stage Showcase</span>
+          </div>
+          <div class="media-tile" data-category="performances">
+            <img src="assets/placeholder-image.svg" alt="Festival energy placeholder image" />
+            <span>Festival Energy</span>
+          </div>
+          <div class="media-tile" data-category="rehearsals">
+            <img src="assets/placeholder-image.svg" alt="Studio flow placeholder image" />
+            <span>Studio Flow</span>
+          </div>
+          <div class="media-tile" data-category="events">
+            <img src="assets/placeholder-image.svg" alt="Brand launch placeholder image" />
+            <span>Brand Launch</span>
+          </div>
+          <div class="media-tile" data-category="events">
+            <img src="assets/placeholder-image.svg" alt="Night performance placeholder image" />
+            <span>Night Performance</span>
+          </div>
+          <div class="media-tile" data-category="rehearsals">
+            <img src="assets/placeholder-image.svg" alt="Precision drill placeholder image" />
+            <span>Precision Drill</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark reveal">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Videos</h2>
+          <p>Embed your performance reels here.</p>
+        </div>
+        <div class="grid cards-3">
+          <div class="card video-card">
+            <div class="video-placeholder">
+              <img src="assets/placeholder-image.svg" alt="Performance video thumbnail placeholder" />
+              <span>Performance Video</span>
+            </div>
+          </div>
+          <div class="card video-card">
+            <div class="video-placeholder">
+              <img src="assets/placeholder-image.svg" alt="Behind the scenes thumbnail placeholder" />
+              <span>Behind the Scenes</span>
+            </div>
+          </div>
+          <div class="card video-card">
+            <div class="video-placeholder">
+              <img src="assets/placeholder-image.svg" alt="Workshop recap thumbnail placeholder" />
+              <span>Workshop Recap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo-mark">SWAT</div>
+        <p>Powerful, expressive, professional — ready for your next event.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="events.html">Events</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="contact.html">Contact</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 SWAT — Sisters With Attitude</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

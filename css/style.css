@@ -1,6 +1,6 @@
 ﻿:root {
-  --purple: #6a0dad;
-  --purple-light: #c9a3ff;
+  --purple: #E66F97;
+  --purple-light: #d0b4f7;
   --purple-dark: #3a0664;
   --black: #0f0f0f;
   --white: #ffffff;
@@ -62,7 +62,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0;
+  padding: 8px 0;
 }
 
 /* .logo {
@@ -123,7 +123,7 @@ img {
   bottom: -6px;
   width: 100%;
   height: 2px;
-  background: var(--purple-light);
+  background: var(--purple);
 }
 
 .nav-toggle {
@@ -166,7 +166,7 @@ img {
 
 .hero {
   position: relative;
-  padding: 120px 0 80px;
+  padding: 30px 0 80px;
   overflow: hidden;
 }
 

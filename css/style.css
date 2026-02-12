@@ -64,11 +64,11 @@ img {
   padding: 16px 0;
 }
 
-.logo {
+/* .logo {
   display: flex;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
-}
+} */
 
 .logo-img {
   height: 56px;
@@ -297,9 +297,9 @@ h1 {
   color: #6a6a7a;
 }
 
-.section {
+/* .section {
   padding: 80px 0;
-}
+} */
 
 .section.dark {
   background: linear-gradient(135deg, #f1e9ff, #ffffff);
@@ -371,7 +371,7 @@ h1 {
 }
 
 .page-hero {
-  padding: 100px 0 60px;
+  padding: 30px 0;
 }
 
 .bullet {

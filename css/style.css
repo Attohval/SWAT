@@ -53,6 +53,7 @@ img {
   width: 100%;
   z-index: 50;
   background: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(18px);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(15, 15, 15, 0.08);
 }
@@ -80,6 +81,13 @@ img {
   font-size: 24px;
   font-weight: 800;
   letter-spacing: 2px;
+}
+
+.footer-logo-img {
+  height: 56px;
+  width: auto;
+  border-radius: 100%;
+  object-fit: contain;
 }
 
 .logo-sub {
